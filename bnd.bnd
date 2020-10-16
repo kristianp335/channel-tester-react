@@ -1,0 +1,7 @@
+Bundle-Name: channel-tester-react
+Bundle-SymbolicName: com.liferay.kris.channel.tester
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.kris.channel.tester.constants
+Import-Package: !android.util*, !org.apache.avalon*,!org.apache.log*, *
+Web-ContextPath: /channel-tester-react
+-metatype: *

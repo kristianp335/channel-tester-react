@@ -1,0 +1,13 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.frontend.js.loader.modules.extender.api"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.util.taglib"
+	compileOnly group: "javax.portlet", name: "portlet-api"
+	compileOnly group: "javax.servlet", name: "javax.servlet-api"
+	compileOnly group: "jstl", name: "jstl"
+	compileOnly group: "org.osgi", name: "osgi.cmpn"
+	compileInclude group: "com.twilio.sdk", name: "twilio", version: "8.0.0", transitive: false
+	compileInclude group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1', transitive: true
+	compileInclude group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.12' , transitive: true
+	compileInclude group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.60'
+}
